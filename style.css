@@ -1,0 +1,20 @@
+*, :after, :before { box-sizing: border-box; }
+
+.kontajner{
+display: flex;
+
+}
+
+.fotky{
+  border-radius: 50%;
+  width:150px;
+  height: 150px;
+}
+
+
+
+
+
+h1, h2, p{
+    font-family: 'Rubik', sans-serif;
+}

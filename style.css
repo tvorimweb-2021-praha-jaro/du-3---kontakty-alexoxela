@@ -2,7 +2,12 @@
 
 .kontajner{
 display: flex;
-
+background-color: silver;
+padding:2rem;
+border-radius: 10px;
+justify-content: space-between;
+flex:auto;
+align-items:center;
 }
 
 .fotky{
@@ -12,9 +17,25 @@ display: flex;
 }
 
 
-
-
-
 h1, h2, p{
     font-family: 'Rubik', sans-serif;
+    padding: 1rem;
+}
+
+.kontakthana,
+.kontaktmarketa,
+.kontaktjana,
+.kontaktmonika{
+  background-color: white;
+  border-radius: 10px;
+  align-items: justify;
+  width:22%;
+  place-self: end center
+  
+}
+
+.ikony{
+  width:35px;
+  height: 35px;
+  
 }

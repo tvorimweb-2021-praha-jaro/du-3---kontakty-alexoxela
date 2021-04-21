@@ -1,4 +1,13 @@
-*, :after, :before { box-sizing: border-box; }
+*{
+  box-sizing: inherit;
+}
+html{
+  box-sizing: border border-box;
+}
+.body{
+  margin: 0;
+  padding: 0;
+}
 
 .kontajner{
 display: flex;
@@ -7,7 +16,7 @@ padding:2rem;
 border-radius: 10px;
 justify-content: space-between;
 flex:auto;
-align-items:center;
+flex-direction: row;
 }
 
 .fotky{
@@ -22,20 +31,19 @@ h1, h2, p{
     padding: 1rem;
 }
 
-.kontakthana,
-.kontaktmarketa,
-.kontaktjana,
-.kontaktmonika{
+.kontakt{
   background-color: white;
   border-radius: 10px;
-  align-items: justify;
   width:22%;
-  place-self: end center
+  justify-content: center;
+  text-align: center;
+  padding:1rem;
+  margin:1rem;
   
 }
 
 .ikony{
   width:35px;
-  height: 35px;
-  
-}
+  height:35px;
+  }
+

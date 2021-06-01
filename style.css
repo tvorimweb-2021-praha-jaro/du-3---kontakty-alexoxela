@@ -1,51 +1,36 @@
-*{
-  box-sizing: inherit;
-}
-html{
-  box-sizing: border border-box;
-}
-.body{
-  margin: 0;
-  padding: 0;
+*, :after, :before { box-sizing: border-box; }
+
+body{
+  margin-right: 2rem;
+  margin-left: 2rem;
+  font-family:'Rubik', sans-serif;
+  font-size:14px;
 }
 
-.kontajner{
+.dievcata{
 display: flex;
-background-color: silver;
-padding:2rem;
-border-radius: 10px;
-justify-content: space-between;
-flex:auto;
-flex-direction: row;
-}
-
-.fotky{
-  border-radius: 50%;
-  width:150px;
-  height: 150px;
-}
-
-
-h1, h2, p{
-    font-family: 'Rubik', sans-serif;
-    padding: 1rem;
+background-color:silver;
+border-radius:0.5rem;
+justify-content:space-between;
 }
 
 .kontakt{
   background-color: white;
-  border-radius: 10px;
-  width:22%;
-  justify-content: center;
+  padding:2rem;
+  margin:2rem;
   text-align: center;
-  padding:1rem;
-  margin:1rem;
-  
+  border-radius: 0.5rem;
+  flex-basis:22%;
 }
 
-.ikony{
-  width:35px;
-  height:35px;
-  }
+.fotky {
+  border-radius: 50%;
+}
 
-/* Ahoj :) kvoli stahovaniu do noveho bytu odovzadam ulohu az teraz, dufam ze to nevadi a splnila som vsetko co ste potrebovali
-Ulohy su super, uz aj sa pustam do 4 ulohy */
+.loga img{
+  margin-top: auto;
+}
+
+
+
+/* skusila som opravit co som vedela, dufam ze to bude v poriadku */

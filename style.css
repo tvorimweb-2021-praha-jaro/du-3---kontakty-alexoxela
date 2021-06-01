@@ -12,6 +12,7 @@ display: flex;
 background-color:silver;
 border-radius:0.5rem;
 justify-content:space-between;
+padding:1rem;
 }
 
 .kontakt{
